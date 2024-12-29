@@ -39,9 +39,9 @@ module.exports = {
   nodes: [
     {
         name: "Server",
-        host: "lavalink.clxud.dev",
-        port: 2333,
-        password: "youshallnotpass",
+        host: "lava-v3.ajieblogs.eu.org",
+        port: 80,
+        password: "https://dsc.gg/ajidevserver",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
         secure: false
