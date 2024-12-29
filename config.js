@@ -21,7 +21,7 @@
 
 module.exports = {
   TOKEN: process.env.TOKEN,
-  ownerID: ["917110333640962100", ""], 
+  ownerID: ["1230436474105888878", ""], 
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
