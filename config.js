@@ -32,7 +32,8 @@ module.exports = {
   CheckmarkIcon: "https://cdn.discordapp.com/emojis/819446784647757834.gif",
   MusicIcon:"https://cdn.discordapp.com/emojis/763415718271385610.gif",
   embedTimeout: 5,  // Timeout before the button interaction embeds are deleted ( Default - 5 seconds)
-  errorLog: "", 
+  errorLog: "",
+  keepAlive: parseBoolean(process.env.KEEP_ALIVE) || false, // for https://replit.com keep alive bot 24/7
 
    // Lavalink Server Details
 
