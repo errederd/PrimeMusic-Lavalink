@@ -1,12 +1,12 @@
 
 
 module.exports = {
-  TOKEN: "",
-  language: "en",
-  ownerID: ["1004206704994566164", ""], 
-  mongodbUri : "",
-  spotifyClientId : "",
-  spotifyClientSecret : "",
+  TOKEN: process.env.TOKEN,
+  language: "es",
+  ownerID: ["218559611320401920", ""], 
+  mongodbUri: "",
+  spotifyClientId: process.env.CLIENTID,
+  spotifyClientSecret: process.env.CLIENTSECRET,
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
   embedColor: "#1db954",
